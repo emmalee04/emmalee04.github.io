@@ -17,7 +17,6 @@
   box-shadow: none;
 }
 
-/* Fade in shadow on scroll when supported */
 @supports (animation-timeline: scroll()) {
   .navbar {
     animation: scroll-shadow linear both;
