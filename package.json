@@ -2,6 +2,7 @@
   "name": "emmalee",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://leemms04.github.io/portfolio-website",
   "dependencies": {
     "embla-carousel-react": "^8.1.5",
     "framer-motion": "^11.2.10",
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
