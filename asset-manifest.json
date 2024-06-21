@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4f6e19f.css",
-    "main.js": "/static/js/main.da893776.js",
+    "main.css": "/static/css/main.37291984.css",
+    "main.js": "/static/js/main.63dcfa83.js",
     "static/js/511.cd703823.chunk.js": "/static/js/511.cd703823.chunk.js",
     "static/media/euns-sunset.wav": "/static/media/euns-sunset.2cad39a565bb96bb6932.wav",
     "static/media/about-profile-2.jpg": "/static/media/about-profile-2.d42661d50174800df321.jpg",
@@ -14,12 +14,12 @@
     "static/media/xk-logo.png": "/static/media/xk-logo.887a7f3e54d6d08da4fd.png",
     "static/media/everlearn-logo.png": "/static/media/everlearn-logo.50f4e942e97bbcfca908.png",
     "index.html": "/index.html",
-    "main.f4f6e19f.css.map": "/static/css/main.f4f6e19f.css.map",
-    "main.da893776.js.map": "/static/js/main.da893776.js.map",
+    "main.37291984.css.map": "/static/css/main.37291984.css.map",
+    "main.63dcfa83.js.map": "/static/js/main.63dcfa83.js.map",
     "511.cd703823.chunk.js.map": "/static/js/511.cd703823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4f6e19f.css",
-    "static/js/main.da893776.js"
+    "static/css/main.37291984.css",
+    "static/js/main.63dcfa83.js"
   ]
 }
