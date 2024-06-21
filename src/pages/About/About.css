@@ -1,0 +1,156 @@
+.about {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.about-title {
+  width: 60%;
+  align-items: center;
+}
+
+.about-desc {
+  width: 80%;
+}
+
+.about-text {
+  margin: 10px;
+}
+
+.about-img {
+  object-fit: cover;
+  width: 240px;
+  height: 240px;
+  border-radius: 7%;
+  margin: 20px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  color: var(--brown-color);
+}
+
+.link:hover {
+  opacity: 0.5;
+  font-weight: 400;
+  text-shadow: 0 0 32px var(--green-color);
+  transition: 0.3s;
+}
+
+.carousel {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .about-title {
+    width: 80%;
+  }
+  
+  .about-desc {
+    width: 80%;
+  }
+
+  .image-list {
+    display: none;
+  }
+
+  .about-img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-width: 5px;
+    margin: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel {
+    display: block;
+    max-width: 220px;
+    justify-content: center;
+    margin: auto;
+    --slide-height: 200px;
+    --slide-spacing: 10px;
+    --slide-size: 100%;
+  }
+
+  .image-carousel {
+    display: block;
+    overflow: hidden;
+    max-height: 240px;
+  }
+
+  .carousel-container {
+    display: flex;
+    backface-visibility: hidden;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+  }
+
+  .carousel-slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }  
+
+  .embla__controls {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    gap: 1.2rem;
+  }
+
+  .embla__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem;
+    align-items: center;
+  }
+  
+  .embla__button {
+    box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 1;
+    color: var(--black-color);
+  }
+
+  .embla__button:disabled {
+    color: var(--light-gray-color);
+  }
+
+  .embla__button__svg {
+    width: 35%;
+    height: 35%;
+  }
+
+  .embla__dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  .embla__dot {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .embla__dot:after {
+    box-shadow: inset 0 0 0 0.2rem var(--light-gray-color);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    content: '';
+  }
+
+  .embla__dot--selected:after {
+    box-shadow: inset 0 0 0 0.2rem var(--black-color);
+  }
+}

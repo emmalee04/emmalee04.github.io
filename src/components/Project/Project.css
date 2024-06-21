@@ -1,0 +1,81 @@
+.project {
+  width: 80%;
+  height: auto;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+  --shadow: hsla(0 0% 0% / 0.1) 0 0.5rem 1rem;
+  box-shadow: var(--shadow);
+}
+
+.project-main {
+  min-width: 150px;
+  height: fit-content;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.project-main-img {
+  object-fit: cover;
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.github-link {
+  gap: 7px;
+}
+
+.project-main-link:hover {
+  opacity: 0.5;
+  font-weight: 400;
+  text-shadow: 0 0 32px var(--green-color);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project-desc {
+  align-items: start;
+}
+
+.project-desc-skills {
+  display: flex;
+}
+
+.project-skills {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.skill-logo {
+  margin-top: 6px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .project {
+    width: 70%;
+    flex-direction: column;
+  }
+
+  .project-main {
+    flex-direction: row;
+    width: 70%;
+    height: 100px;
+    gap: 20px;
+  }
+
+  .project-main-img {
+    object-fit: cover;
+    height: 100px;
+  }
+
+  .skill-logo {
+    min-width: 16px;
+    min-height: 16px;
+    margin-top: 6px;
+    margin-right: 5px;
+  }
+  
+}
