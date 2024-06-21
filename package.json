@@ -2,7 +2,7 @@
   "name": "emmalee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leemms04.github.io/portfolio-website",
+  "homepage": "https://leemms04.github.io",
   "dependencies": {
     "embla-carousel-react": "^8.1.5",
     "framer-motion": "^11.2.10",
