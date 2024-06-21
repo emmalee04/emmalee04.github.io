@@ -8,26 +8,25 @@ import data from '../../data/data';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleNavbar = () => setToggleMenu(!toggleMenu);
-  const [isScrollable, setIsScrollable] = useState(false);
+  const [isShadow, setIsShadow] = useState(false);
+
+  const checkScroll = () => {
+    if (window.scrollY > 0) {
+      setIsShadow(true);
+    } else {
+      setIsShadow(false);
+    }
+  };
 
   useEffect(() => {
-    const checkScrollable = () => {
-      const bodyHeight = document.body.offsetHeight;
-      const windowHeight = window.innerHeight;
-      setIsScrollable(bodyHeight > windowHeight);
-    };
-
-    checkScrollable();
-    window.addEventListener('resize', checkScrollable);
-
+    window.addEventListener('scroll', checkScroll);
     return () => {
-      window.removeEventListener('resize', checkScrollable);
+      window.removeEventListener('scroll', checkScroll);
     };
   }, []);
-
+  
   return (
-    <nav className={`navbar flex flex-sb ${isScrollable ? '' : 'no-shadow'}`} id='navbar' 
-    >
+    <nav className={`navbar flex flex-sb ${isShadow ? 'shadow' : ''}`} id='navbar'>
       <div className='navbar-content flex flex-c'>
         <div className='brand-and-toggler flex flex-sb'>
           <Link to={data.pages[0].path} className='navbar-brand flex'>
