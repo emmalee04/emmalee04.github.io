@@ -23,6 +23,7 @@
   border-style: solid;
   width: 100px;
   height: 40px;
+  color: var(--black-color);
 
   &:hover{
     opacity: 0.5;

@@ -6,6 +6,7 @@ import Project from '../../components/Project/Project';
 import { motion } from 'framer-motion';
 import data from '../../data/data';
 
+// Projects page listing all the projects I've done so far
 const Projects = () => {
   const containerVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -30,7 +31,7 @@ const Projects = () => {
         variants={containerVariants}
         className='flex flex-c flex-sb'
       >
-        <div className='flex flex-column flex-c'>
+        <div className='projects-container flex flex-column flex-c'>
           <div className='projects-title container flex flex-c flex-column'>
             <motion.div variants={containerVariants}>
               <p className='text-uppercase fw-6 fs-20'>{data.pages[1].content.title}</p>

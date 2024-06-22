@@ -12,6 +12,7 @@ import {
 } from './EmblaCarouselArrowButtons';
 import data from '../../data/data';
 
+// About page with profile pictures and personal descriptions
 const About = () => {
   const containerVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -27,6 +28,7 @@ const About = () => {
     }
   };
 
+  // Image carousel from Embla Carousel
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
@@ -48,7 +50,7 @@ const About = () => {
         variants={containerVariants}
         className='flex flex-c flex-sb'
       >
-        <div className='flex flex-column'>
+        <div className='about-container flex flex-column'>
           <div className='about-title container flex flex-column'>
             <motion.div variants={containerVariants}>
               <p className='text-uppercase fw-6 fs-20'>{data.pages[2].content.title}</p>

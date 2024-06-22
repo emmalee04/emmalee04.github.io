@@ -3,6 +3,7 @@ import './Project.css';
 import { FaGithub } from "react-icons/fa6";
 import { FaCog } from "react-icons/fa";
 
+// Project component including project logo, title and descriptions
 const Project = ({project}) => {
   return (
     <div className='project flex'>

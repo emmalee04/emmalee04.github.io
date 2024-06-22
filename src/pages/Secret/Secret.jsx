@@ -5,6 +5,7 @@ import Social from '../../components/Social/Social';
 import { motion } from 'framer-motion';
 import data from '../../data/data';
 
+// Secret page for clicking on the heart!
 const Secret = () => {
   const containerVariants = {
     hidden: { opacity: 0, y: 20 },

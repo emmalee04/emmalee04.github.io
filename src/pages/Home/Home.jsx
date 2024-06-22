@@ -7,6 +7,7 @@ import { IoMusicalNote } from "react-icons/io5";
 import { motion } from 'framer-motion';
 import data from '../../data/data';
 
+// Home page with title, main profile picture
 const Home = () => {
   const [playing, isPlaying] = useState(false);
   const audioRef = useRef(new Audio(sound));

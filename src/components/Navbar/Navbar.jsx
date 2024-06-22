@@ -1,32 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { BiCoffeeTogo } from "react-icons/bi";
 import { CiMenuBurger } from "react-icons/ci";
 import data from '../../data/data';
 
+// Main navigation bar with app logo and page links
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleNavbar = () => setToggleMenu(!toggleMenu);
-  const [isShadow, setIsShadow] = useState(false);
 
-  const checkScroll = () => {
-    if (window.scrollY > 0) {
-      setIsShadow(true);
-    } else {
-      setIsShadow(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', checkScroll);
-    return () => {
-      window.removeEventListener('scroll', checkScroll);
-    };
-  }, []);
-  
   return (
-    <nav className={`navbar flex flex-sb ${isShadow ? 'shadow' : ''}`} id='navbar'>
+    <nav className={'navbar flex flex-sb'} id='navbar'>
       <div className='navbar-content flex flex-c'>
         <div className='brand-and-toggler flex flex-sb'>
           <Link to={data.pages[0].path} className='navbar-brand flex'>

@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Social from '../../components/Social/Social';
 import data from '../../data/data';
 
+// Resume page
 const Resume = () => {
   return (
     <div className='resume flex flex-sb flex-column'>

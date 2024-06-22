@@ -3,6 +3,10 @@
   overflow-x: hidden;
 }
 
+.about-container {
+  margin-top: 40px;
+}
+
 .about-title {
   width: 60%;
   align-items: center;
