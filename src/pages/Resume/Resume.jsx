@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div className='resume flex flex-sb flex-column'>
       <Navbar />
-      <iframe src={data.resume} width='90%' height='100%'/>
+      <iframe src={data.resume} width='90%' height='100%' title='resume' />
       <Social />
     </div>
   )

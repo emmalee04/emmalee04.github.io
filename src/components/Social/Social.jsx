@@ -34,7 +34,7 @@ const Social = () => {
       <div className='social-item flex'>
         <p className='fs-9'>made with coffee love</p>
         <button>
-          <Link to={data.pages[4].path}><CiHeart /></Link>
+          <Link to={data.pages[5].path}><CiHeart /></Link>
         </button>
       </div>
     </div>

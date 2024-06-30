@@ -41,6 +41,10 @@ const Navbar = () => {
               <Link to={data.pages[3].path} className='nav-link text-uppercase fs-13'>
                 {data.pages[3].nav}</Link>
             </li>
+            <li className='nav-item'>
+              <Link to={data.pages[4].path} className='nav-link text-uppercase fs-13'>
+                {data.pages[4].nav}</Link>
+            </li>
           </ul>
         </div>
       </div>

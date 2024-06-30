@@ -33,16 +33,16 @@ const Secret = () => {
         <div className='secret-main flex flex-c'>
           <div className='secret-desc container flex flex-column'>
             <motion.div variants={containerVariants}>
-              <p className='secret-text text-uppercase fw-6 fs-20'>{data.pages[4].content.title}</p>
+              <p className='secret-text text-uppercase fw-6 fs-20'>{data.pages[5].content.title}</p>
             </motion.div>
             <motion.div variants={containerVariants}>
-              <p className='secret-text fs-9'>{data.pages[4].content.subtitle}</p>
-              <p className='secret-text fs-9'>{data.pages[4].content.body}</p>
+              <p className='secret-text fs-9'>{data.pages[5].content.subtitle}</p>
+              <p className='secret-text fs-9'>{data.pages[5].content.body}</p>
             </motion.div>
           </div>
           <motion.div variants={containerVariants}>
             <button className='coffee-img'>
-              <img src={data.pages[4].content.img} alt="a coffee dancing for you" />
+              <img src={data.pages[5].content.img} alt="a coffee dancing for you" />
             </button>
           </motion.div>
         </div>

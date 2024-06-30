@@ -53,24 +53,24 @@ const About = () => {
         <div className='about-container flex flex-column'>
           <div className='about-title container flex flex-column'>
             <motion.div variants={containerVariants}>
-              <p className='text-uppercase fw-6 fs-20'>{data.pages[2].content.title}</p>
+              <p className='text-uppercase fw-6 fs-20'>{data.pages[3].content.title}</p>
             </motion.div>
             <motion.div variants={containerVariants}>
-              <p className='text-center fs-9'>{data.pages[2].content.subtitle}</p>
+              <p className='text-center fs-9'>{data.pages[3].content.subtitle}</p>
             </motion.div>
           </div>
           <motion.div variants={containerVariants}> 
             <div className='image-list flex flex-c flex-sb'>
-              <img src={data.pages[2].content.img[0]} alt="profile image" className='about-img'/>
-              <img src={data.pages[2].content.img[1]} alt="profile image" className='about-img'/>
-              <img src={data.pages[2].content.img[2]} alt="profile image" className='about-img'/>
+              <img src={data.pages[3].content.img[0]} alt="profile" className='about-img'/>
+              <img src={data.pages[3].content.img[1]} alt="profile" className='about-img'/>
+              <img src={data.pages[3].content.img[2]} alt="profile" className='about-img'/>
             </div>
             <section className='carousel'>
               <div className="image-carousel" ref={emblaRef}>
                 <div className="carousel-container">
-                  <img src={data.pages[2].content.img[0]} alt="profile image" className='carousel-slide about-img'/>
-                  <img src={data.pages[2].content.img[1]} alt="profile image" className='carousel-slide about-img'/>
-                  <img src={data.pages[2].content.img[2]} alt="profile image" className='carousel-slide about-img'/>
+                  <img src={data.pages[3].content.img[0]} alt="profile" className='carousel-slide about-img'/>
+                  <img src={data.pages[3].content.img[1]} alt="profile" className='carousel-slide about-img'/>
+                  <img src={data.pages[3].content.img[2]} alt="profile" className='carousel-slide about-img'/>
                 </div>
               </div>
 

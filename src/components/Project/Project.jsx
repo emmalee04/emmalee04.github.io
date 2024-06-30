@@ -16,7 +16,7 @@ const Project = ({project}) => {
           {project.link && (
             <div className='github-link flex flex-sb'>
               <FaGithub />
-                <a href={project.link} className='project-main-link fs-10' target='_blank'>Github</a>
+                <a href={project.link} className='project-main-link fs-10' target='_blank' rel='noreferrer'>Github</a>
             </div>
           )}
         </div>

@@ -1,0 +1,53 @@
+.graphics {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.graphics-container {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.graphics-title {
+  width: 60%;
+  align-items: center;
+}
+
+.graphics-content {
+  grid-gap: 3rem;
+  padding: 20px;
+}
+
+.graphic-img {
+  object-fit: cover;
+  width: 240px;
+  height: 240px;
+  border-radius: 7%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .graphics-content img {
+  width: 150px;
+  height: 150px;
+} */
+
+/* show only two columns of books when screen width is >=600px */
+@media screen and (min-width: 600px){
+  .graphics-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* show three columns of books when screen width is >=992px */
+@media screen and (min-width: 992px){
+  .graphics-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* show four smaller columns of books when screen width is >=992px */
+@media screen and (min-width: 992px){
+  .graphics-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
