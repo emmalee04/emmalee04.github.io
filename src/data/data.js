@@ -187,8 +187,10 @@ const data = {
         the biggest CS RSO on campus! You can check out my graphics 
         <a href="https://www.instagram.com/uwcom2/" target="_blank" rel='noreferrer' className='link'> here </a>!
       </p>
-      <p className='about-text fs-9'>I will also be a teaching assistant for UW this upcoming fall
-        for FIN 205: Personal Finance.
+      <p className='about-text fs-9'>
+        I also work as an undergratuate teaching assistant for two courses: CSE 190B Direct Admit Seminar 
+        and FIN 205 Personal Finance. I attend weekly staff meetings, develop weekly seminar plans, lead open 
+        office hours, support course material development, and mentor students!
       </p>
       <p className='about-text fw-6 fs-16'>What else does Emma do?</p>
       <p className='about-text fs-9'>Other than cooking up some code, I enjoy trips, 
