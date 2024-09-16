@@ -24,7 +24,7 @@ const Social = () => {
         <a href="https://www.linkedin.com/in/emmalee04/" className='social-link'>
           <FaLinkedin className='social-logo' />
         </a>
-        <a href="https://github.com/leemms04" className='social-link'>
+        <a href="https://github.com/emmalee04" className='social-link'>
           <FaGithub className='social-logo' />
         </a>
         <a href="https://gitlab.cs.washington.edu/slee04" className='social-link'>
