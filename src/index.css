@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+/* colors */ 
+:root {
+  --light-color: #FFFFFF;
+  --gray-light-color: #E0E0E0;
+  --gray-color: #898989;
+  --dark-color: #111111;
+}
+
+@theme {
+  --color-coffee: #c7a68f;
+  --color-matcha: #a6c096;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: black;
+}
+
+/* link styles */
+.navbar-link {
+  position: relative;
+  display: inline-block;
+  align-self: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s cubic-bezier(0.12, 0.23, 0.5, 1);
+}
+
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.2s cubic-bezier(0.12, 0.23, 0.5, 1);
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+/* text styles */
+.heading-1 {
+  font-size: 32px;
+  font-weight: 100;
+  color: var(--light-color);
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin-bottom: 0.1em;
+}
+
+.heading-2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-light-color);
+  letter-spacing: 0em;
+  line-height: 1.1;
+  margin-bottom: 0.4em;
+}
+
+.heading-3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-color);
+  letter-spacing: 0em;
+  line-height: 1.1;
+  margin-bottom: 0.4em;
+}
+
+.heading-title {
+  font-size: 14px;
+  font-weight: 200;
+  color: var(--gray-light-color);
+  letter-spacing: 0em;
+  line-height: 1.1;
+  margin-bottom: 0.4em;
+}
+
+.heading-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--light-color);
+  letter-spacing: 0em;
+  line-height: 1.1;
+  margin-bottom: 0.4em;
+}
+
+.menu {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--light-color);
+  letter-spacing: 0em;
+  line-height: 1.6;
+  margin-bottom: 0.2em;
+}
+
+.menu-mobile {
+  font-size: 32px;
+  font-weight: 200;
+  color: var(--light-color);
+  letter-spacing: 0em;
+  line-height: 1.6;
+  margin-bottom: 0.2em;
+}
+
+.body-12 {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--gray-light-color);
+  letter-spacing: 0em;
+  line-height: 1.1;
+  margin-bottom: 0.2em;
+}
+
+.body-14 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--light-color);
+  letter-spacing: 0em;
+  line-height: 1.6;
+  margin-bottom: 0.2em;
+}
+
+.body-16 {
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--gray-light-color);
+  letter-spacing: 0em;
+  line-height: 1.6;
+  margin-bottom: 0.4em;
+}
+
+.body-18 {
+  font-size: 18px;
+  font-weight: 200;
+  color: var(--gray-color);
+  letter-spacing: 0em;
+  line-height: 2;
+  margin-bottom: 0.2em;
+}
+
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: 24px;
+  }
+
+  .heading-2 {
+    font-size: 12px;
+  }
+
+  .heading-3 {
+    font-size: 14px;
+  }
+
+  .menu {
+    font-size: 18px;
+  }
+}
