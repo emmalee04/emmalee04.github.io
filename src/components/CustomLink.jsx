@@ -1,25 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// // This component assumes that the `.navbar-link` class is defined in a global CSS file (like Navbar.css or index.css).
-// const CustomLink = ({ to, onClick, className, children }) => {
-//   // We combine the base 'navbar-link' class with any additional classes
-//   // that are passed in via props for more specific styling.
-//   const combinedClassName = `navbar-link ${className || ''}`.trim();
-
-//   return (
-//     <Link 
-//       to={to} 
-//       onClick={onClick} 
-//       className={combinedClassName}
-//     >
-//       {children}
-//     </Link>
-//   );
-// };
-
-// export default CustomLink;
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 

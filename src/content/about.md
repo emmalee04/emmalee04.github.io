@@ -1,0 +1,5 @@
+I'm a developer passionate about building scalable architecture and creating solutions with real impact. I love elegant algorithms, theory proofs, and the nitpicky side of system design - generally anything about computing. Currently, I'm a student at University of Washington studying CS and minoring in math and business.
+
+For me, fulfillment in life comes from exploring what the world has to offer with my close people and continuously learning new things (badminton as of late). Outside of work generally you can catch me blasting off-piste on my snowboard, hitting the trails, whacking some birdies, playing stardew, or going on food ventures with my friends & loved ones [♡](https://www.instagram.com/ebaisui/).
+
+You can learn more about me at my [thoughts](/projects), [works](/works), or find me on [Linkedin](https://www.linkedin.com/in/emmalee04), [Github](https://github.com/emmalee04), or via [email](mailto:emmalee1871@gmail.com).
