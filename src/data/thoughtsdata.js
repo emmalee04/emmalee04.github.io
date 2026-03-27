@@ -10,14 +10,14 @@ const thoughtsData = [
     type: "component",
     component: Abecedarium 
   },
-  {
-    id: 2,
-    title: "tbd",
-    date: "2026-03-27",
-    slug: "tbd",
-    type: "markdown",
-    content: tbd
-  },
+  // {
+  //   id: 2,
+  //   title: "tbd",
+  //   date: "2026-03-27",
+  //   slug: "tbd",
+  //   type: "markdown",
+  //   content: tbd
+  // },
 ].sort((a, b) => new Date(b.date) - new Date(a.date));
 
 export default thoughtsData;
