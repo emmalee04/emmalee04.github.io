@@ -18,7 +18,7 @@ For this project, I developed a small version of a distributed system in Java ba
 
 ## Teaching Assistant - FIN205: Personal Finance (2024-25)
 
-I led weekly open office hours on essential personal finance topics and provided technical support on the course platform. Attended weekly staff meetings; supported course development and graded course material for 400 students. I additionally created three [python webscrapers]((https://github.com/emmalee04/FIN205-Mighty)) that automated parts of the grading process, saving over 100 hours in a single quarter.
+I led weekly open office hours on essential personal finance topics and provided technical support on the course platform. Attended weekly staff meetings; supported course development and graded course material for 400 students. I additionally created three [python webscrapers](https://github.com/emmalee04/FIN205-Mighty) that automated parts of the grading process, saving over 100 hours in a single quarter.
 
 ## Dubjam (2024)
 
