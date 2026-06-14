@@ -22,7 +22,7 @@ I led weekly open office hours on essential personal finance topics and provided
 
 ## Dubjam (2024)
 
-Our team built [Dubjam](https://devpost.com/software/dubjam-hy9ej8), a real-time collaboration audio platform where users can add tracks, manipulate sequences, play on the synthesizer, and hear results instantly.Utilized React + TS + Node.js for fullstack, [Auth0](https://auth0.com/) for user authentication, [Ably](https://ably.com/) for real-time collaboration, [Tone.js](https://tonejs.github.io/) for audio processing, [Prisma](https://www.prisma.io/) and [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database) for serverless, NoSQL storage, and deployed app with Terraform+AWS. Won MLH\'s Terraform Track in [Dubhacks 2024](https://dh24.dubhacks.co/).
+Our team built [Dubjam](https://devpost.com/software/dubjam-hy9ej8), a real-time collaboration audio platform where users can add tracks, manipulate sequences, play on the synthesizer, and hear results instantly. Utilized React + TS + Node.js for fullstack, [Auth0](https://auth0.com/) for user authentication, [Ably](https://ably.com/) for real-time collaboration, [Tone.js](https://tonejs.github.io/) for audio processing, [Prisma](https://www.prisma.io/) and [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database) for serverless, NoSQL storage, and deployed app with Terraform+AWS. Won MLH\'s Terraform Track in [Dubhacks 2024](https://dh24.dubhacks.co/).
 
 ## xk Operating System (2024)
 

@@ -1,5 +1,5 @@
 import Abecedarium from '../pages/Thoughts/Abecedarium.jsx';
-import tbd from '../content/thoughts/tbd.md?raw';
+import Internship from '../content/thoughts/internship.md?raw';
 
 const thoughtsData = [
   {
@@ -10,14 +10,14 @@ const thoughtsData = [
     type: "component",
     component: Abecedarium 
   },
-  // {
-  //   id: 2,
-  //   title: "tbd",
-  //   date: "2026-03-27",
-  //   slug: "tbd",
-  //   type: "markdown",
-  //   content: tbd
-  // },
+  {
+    id: 2,
+    title: "How to do well in internships",
+    date: "2026-04-01",
+    slug: "internship",
+    type: "markdown",
+    content: Internship
+  },
 ].sort((a, b) => new Date(b.date) - new Date(a.date));
 
 export default thoughtsData;

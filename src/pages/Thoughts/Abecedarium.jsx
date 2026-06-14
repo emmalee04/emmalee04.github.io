@@ -1,7 +1,7 @@
 import React from 'react';
 import LetterIndex from '../../components/LetterIndex';
 import ReactMarkdown from "react-markdown";
-import abecedariumContent from '../../content/abecedarium.md?raw';
+import abecedariumContent from '../../content/thoughts/abecedarium.md?raw';
 import { entries } from '../../data/abecedarium';
 
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
